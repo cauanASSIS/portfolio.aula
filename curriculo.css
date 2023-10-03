@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: #000 ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    color: white;
+}
+
+
+.img {
+  width: 60px;
+  height 50px;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-menu-links{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #380B61;
+    text-decoration: none;
+}
+
+.titulo-destaque {
+    color: #380B61;
+}
+
+.conteudo {
+    height: auto;
+    flex-direction: column;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* Estilos para elementos com a classe .apresentacao-conteudo */
+.apresentacao-conteudo {
+    /* Define a largura do elemento como 615px */
+    width: 615px;
+
+    /* Transforma o elemento em um contêiner flexível com direção de coluna */
+    display: flex;
+    flex-direction: column;
+
+    /* Centraliza verticalmente os elementos dentro do contêiner */
+    justify-content: center;
+
+    /* Centraliza horizontalmente os elementos dentro do contêiner */
+    align-items: center;
+
+    /* Centraliza o alinhamento do texto dentro do contêiner */
+    text-align: center;
+
+    /* Define a altura do elemento como automática (ajustada ao conteúdo) */
+    height: auto;
+
+    /* Define o espaçamento entre os elementos filhos como 40px */
+    gap: 40px;
+
+    /* Define a ordem do elemento como 2 na ordem de exibição */
+    order: 2;
+}
+
+/* Estilos para elementos com a classe .apresentacao-conteudo-titulo */
+.apresentacao-conteudo-titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #380B61;
+    text-decoration-skip-ink: none;
+}
+
+/* Estilos para elementos com a classe .apresentacao-conteudo-paragrafo */
+.apresentacao-conteudo-paragrafo {
+    /* Define o tamanho da fonte como 24px */
+    font-size: 24px;
+
+    /* Define a família de fontes como 'Montserrat' com fallback para sans-serif */
+    font-family: 'Montserrat', sans-serif;
+
+    /* Alinha o texto justificado */
+    text-align: justify;
+}
+
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+/* Estilo de link no rodapé */
+.rodape a:hover {
+    background-color: #380B61;
+}
